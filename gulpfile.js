@@ -50,7 +50,6 @@ gulp.task('clear', function (done) {
 });
 
 gulp.task('watch', [ 'index' ], function(){
-	livereload.listen();
 	gulp.watch( SRC_PATH + '**/*.php', [ 'php' ] ) ;
 	gulp.watch( SRC_IMG_PATH + '**/*', [ 'cp-images' ] ) ;
 });

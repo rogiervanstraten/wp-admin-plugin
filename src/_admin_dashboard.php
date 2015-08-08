@@ -22,13 +22,13 @@ function add_dashboard_rss_widget() {
 	$rss = fetch_feed( BALDADIG_RSS_FEED . $client );
 
 	if ( is_wp_error($rss) ) {
-	    
+
 		if ( is_admin() || current_user_can('manage_options') ) {
 			echo '<p>';
 			printf(__('<strong>RSS Error</strong>: %s'), $rss->get_error_message());
 			echo '</p>';
     }
-		
+
 		return;
 
 	}
@@ -44,7 +44,7 @@ function add_dashboard_rss_widget() {
 	echo "<ul>\n";
 
 	if ( !isset($items) )
-		
+
 		$items = 5;
 		foreach ( $rss->get_items(0, $items) as $item ) {
 			$publisher = '';
@@ -80,8 +80,7 @@ function add_welcome_widget() { ?>
   <hr>
   <br />
   <strong>Wij zijn Baldadig</strong><br /><br />
-  Een vers gestart creatief bureau uit Haarlem. Met de gebundelde krachten van design, development en online marketing leveren wij online totaalconcepten waar we  f*cking trots op zijn.
-
+  Een vers gestart creatief bureau uit Haarlem. Met de gebundelde krachten van design, development en online marketing leveren wij online totaalconcepten waar we trots op zijn.
 
 <?php }
 
