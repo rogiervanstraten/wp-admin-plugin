@@ -5,3 +5,4 @@ Clean head, custom widgets, cleared out dashboard, white labeled login, custom f
 ### TODO ###
 
 * header.php insert website made by **Baldadig*
+* json fetch all the text and remote the images. So we can always update the contents. 
