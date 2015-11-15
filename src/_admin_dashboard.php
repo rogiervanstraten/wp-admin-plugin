@@ -6,7 +6,7 @@
  * Version: %%VERSION%%
  */
 
-define(BALDADIG_RSS_FEED, 'https://roddels.baldadig.nl/');
+define(BALDADIG_RSS_FEED, 'https://wp-dashboard.baldadig.nl/');
 
 function add_dashboard_widgets() {
 
@@ -68,7 +68,7 @@ function add_dashboard_rss_widget() {
 
 function add_welcome_widget() { ?>
 
-	<img src="<?php echo get_bloginfo('template_url'); ?>/baldadig/images/masthead@2x.png" style="float:right;margin:10px 10px;" width="100" height="100" />
+	<img src="<?php echo plugins_url('images/masthead@2x.png', __FILE__); ?>" style="float:right;margin:10px 10px;" width="100" height="100" />
   Welkom bij het dashboard van <?php bloginfo('name'); ?>. Dit is een website gemaakt door <strong><a target="_blank" style="color:#444;" href="http://baldadig.nl">Baldadig</a></strong>.
   <br/><br/><br/>
   <strong>Handige links</strong>
@@ -81,6 +81,7 @@ function add_welcome_widget() { ?>
   <br />
   <strong>Wij zijn Baldadig</strong><br /><br />
   Een vers gestart creatief bureau uit Haarlem. Met de gebundelde krachten van design, development en online marketing leveren wij online totaalconcepten waar we trots op zijn.
+
 
 <?php }
 

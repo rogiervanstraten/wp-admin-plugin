@@ -56,10 +56,13 @@ gulp.task('watch', [ 'index' ], function(){
 });
 
 gulp.task('build', ['index'], function(){
+	var d = new Date();
 
 	return gulp.src( DIST_PATH + '*' )
-		.pipe( zip( themeFolderName + '.zip' ) )
+		.pipe( zip( themeFolderName + '-' + json.version +'.zip' ) )
+		// .pipe( zip( themeFolderName + '-' + d.getTime() +'.zip' ) )
 		.pipe( gulp.dest( './dist/' ) );
 });
+
 gulp.task( 'index', [ 'clear', 'php', 'cp-images' ], function(){});
 gulp.task( 'default', ['index'] );

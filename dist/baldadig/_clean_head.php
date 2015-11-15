@@ -3,7 +3,7 @@
  * Author: Baldadig
  * URL: http://baldadig.nl/
  * Description: 
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 remove_action('wp_head', 'rsd_link'); // remove really simple discovery link

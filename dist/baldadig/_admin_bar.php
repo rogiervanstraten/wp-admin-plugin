@@ -3,7 +3,7 @@
  * Author: Baldadig
  * URL: http://baldadig.nl/
  * Description: 
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 function add_masthead() {?>

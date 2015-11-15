@@ -3,7 +3,7 @@
  * Author: Baldadig
  * URL: http://baldadig.nl/
  * Description: 
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 /**
@@ -11,7 +11,7 @@
  * @description Used for creating a body-class based on the bloginfo name
  * @source: [http://stackoverflow.com/questions/2955251/php-function-to-make-slug-url-string]
  */
-if ( ! function_exists('slugify') ) :
+if ( !function_exists('slugify') ) :
   function slugify( $text = '' ) {
 
     // replace non letter or digits by -

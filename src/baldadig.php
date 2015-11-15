@@ -1,14 +1,18 @@
 <?php
 /**
- * Author: %%AUTHOR%%
- * URL: %%AUTHORURI%%
- * Description: %%DESCRIPTION%%
- * Version: %%VERSION%%
- */
+  * Plugin Name: %%AUTHOR%% Core
+  * Plugin URI: %%AUTHORURI%%
+  * Author: %%AUTHOR%%
+  * URL: %%AUTHORURI%%
+  * Description: %%DESCRIPTION%%
+  * Version: %%VERSION%%
+  */
 
 require_once '_clean_dashboard.php';
 
 require_once '_clean_head.php';
+
+require_once '_client_branding.php';
 
 require_once '_functions.php';
 
