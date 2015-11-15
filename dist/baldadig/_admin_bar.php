@@ -1,9 +1,9 @@
 <?php
 /**
- * Author: %%AUTHOR%%
- * URL: %%AUTHORURI%%
- * Description: %%DESCRIPTION%%
- * Version: %%VERSION%%
+ * Author: Baldadig
+ * URL: http://baldadig.nl/
+ * Description: 
+ * Version: 1.0.0
  */
 
 function add_masthead() {?>

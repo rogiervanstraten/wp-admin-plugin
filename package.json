@@ -2,8 +2,8 @@
   "name": "baldadig",
   "author": "Baldadig",
   "version": "1.0.0",
-  "description": "White label Wordpress.",
-  "authorUri": "",
+  "description": "",
+  "authorUri": "http://baldadig.nl/",
   "main": "baldadig.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
